@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Orderform</title>
+    <style>
+        body{
+            border:2px solid black ;
+            
+            width: fit-content;
+            margin: 200px 0 0 500px;
+            padding: 2px;
+            
+        }
+        form{
+            border: 2px solid black;
+            width: fit-content;
+            background: linear-gradient(45deg,skyblue,lightpink,lightblue);
+           
+        }
+
+        fieldset{
+            background-color: aquamarine;
+        }
+        #s{
+            border: 2px solid black;
+        }
+</style>
+</head>
+<body>
+    <fieldset>
+        <table>
+            <form>
+                <td align="center" colspan="2">ORDERFORM</td>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" placeholder="Enter Your Name"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="datetimelocal"></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><input type="text"><br>Street Name 1</td>
+                    <td><input type="text"><br>Area</td>
+                </tr>
+                </form>
+        </table>
+        <table id="s">
+            <form><tr>
+                    <td colspan="2" align="center">SecondS</td>
+                </tr> 
+                <tr>
+                    <td>Zip Code</td>
+                    <td><input type="text" placeholder="Please fill it carefully"></td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td><select>
+                        <option>--Select--</option>
+                        <option>India</option>
+                        <option>USA</option>
+                        <option>France</option>
+                        <option>italy</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Purchase Order</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Source</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Destination</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Net Value</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Conform</td>
+                    <td><select>
+                        <option></option>
+                        <option>Yes</option>
+                        <option>No</option>
+                </select>
+
+                    </td>
+                </tr>
+                <td><button colspan="2" align="center">Submit</button></td>
+            </form>
+
+        </table>
+        </fieldset>
+    
+</body>
+</html>
